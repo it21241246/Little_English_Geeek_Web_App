@@ -24,11 +24,11 @@ const images: ImageType[] = [
   },
   {
     src: "/images/diagrams/muditha-sd.gif",
-    alt: "Special Accident Detection",
+    alt: "Vocabulary Building Game and Kids Tube Integration",
   },
   {
     src: "/images/diagrams/pasindu-sd.png",
-    alt: "Vehicle Parking Management",
+    alt: "Image Generation with Real-Time Grammar and Comprehension Feedback",
   },
 ];
 
