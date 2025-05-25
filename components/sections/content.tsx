@@ -3,6 +3,9 @@ const Content = () => {
     <div className="my-12" id="scope">
       <div className="flex flex-col gap-5">
         <div>
+          <h1 className="text-center text-2xl text-gray-700 font-semibold uppercase tracking-wide mb-3 dark:text-white">
+            Domain
+          </h1>
           <h2 className="text-center text-2xl text-gray-700 font-semibold uppercase tracking-wide mb-3 dark:text-white">
             Literature survey
           </h2>
@@ -71,7 +74,7 @@ const Content = () => {
             <li className="text-center text-slate-500 dark:text-slate-300">
               In Sri Lanka, primary school education faces additional hurdles that hinder effective literacy development:
               Limited teacher-student interaction: Due to curriculum pressures and time constraints, many teachers are unable
-              to give personalized support to each child, particularly in English — a second or third language for most students.
+              to give personalized support to each child, particularly in English, a second or third language for most students.
               Minimal parental involvement: Many parents lack the linguistic skills or educational background to support their children’s
               English learning at home. This leaves students with limited reinforcement outside the classroom.
               Urban–rural disparities: Students in rural areas often have even fewer resources and lower exposure to English,
@@ -94,7 +97,7 @@ const Content = () => {
           </p>
           <p className="text-center text-slate-500 dark:text-slate-300">
             In addition to supporting students, the tool also seeks to reduce the instructional burden on teachers by automating key aspects of
-            assessment, feedback, and differentiated instruction — allowing teachers to focus more on facilitation than manual evaluation.
+            assessment, feedback, and differentiated instruction allowing teachers to focus more on facilitation than manual evaluation.
             To achieve this, the system integrates four core components, each targeting a critical area of language learning.         </p>
         </div>
       </div>
