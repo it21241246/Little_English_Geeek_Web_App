@@ -49,7 +49,7 @@ const Header = () => {
                 href="#scope"
                 onClick={(e) => scrollToSection(e, "scope")}
               >
-                Scope
+                Domain
               </Link>
               <Link
                 className={cn(
@@ -103,7 +103,7 @@ const Header = () => {
           </div>
           <div className="flex gap-2 items-center">
             <Link
-              href="https://github.com/sachidumaleesha/smart-city-website-24-25j-319"
+              href="https://github.com/IT21237690/Research-Project-24-25J-153"
               target="_blank"
             >
               <Github size={15} className="text-black dark:text-white" />
@@ -135,7 +135,7 @@ const Header = () => {
                         </div>
                         <div className="flex items-center gap-2">
                           <Link
-                            href="https://github.com/sachidumaleesha/smart-city-website-24-25j-319"
+                            href="https://github.com/IT21237690/Research-Project-24-25J-153"
                             target="_blank"
                           >
                             <Github
@@ -280,7 +280,7 @@ const Header = () => {
             </div>
             <div className="flex items-center gap-2">
               <Link
-                href="https://github.com/sachidumaleesha/smart-city-website-24-25j-319"
+                href="https://github.com/IT21237690/Research-Project-24-25J-153"
                 target="_blank"
               >
                 <Github size={15} className="text-black dark:text-white" />
