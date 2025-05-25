@@ -10,16 +10,30 @@ const Solution = () => {
       </h1>
 
       <div className="text-center text-slate-500 dark:text-slate-300 mb-12">
-        The proposed solution involves creating an integrated smart city system
-        using computer vision technology. This system will monitor and optimize
-        various aspects of urban infrastructure, including vehicle parking,
-        traffic management, public safety, and waste management. By leveraging
-        advanced cameras, sensors, and machine learning algorithms, the system
-        will provide real-time data analysis and automated responses to improve
-        city operations and enhance the quality of life for residents.
+        To address the challenges identified in Sri Lanka’s primary English education landscape
+        including poor reading comprehension, limited teacher-student interaction, and low adoption of educational technology.This research
+        proposes a web-based Reading and Comprehension Assistant Tool. The solution is designed to be child-friendly, curriculum-aligned, and
+        locally adaptable. This intelligent assistant integrates speech processing, adaptive learning, and gamification to offer a rich,
+        interactive learning experience for students while also supporting teachers with automated assessment and feedback tools.
       </div>
+      <li className="text-center text-slate-500 dark:text-slate-300 mb-12">Real-Time Fluency & Pronunciation Feedback:
+        Using automatic speech recognition (ASR) and forced alignment, the system listens to students read aloud and provides immediate feedback on:
+        Mispronunciations, disfluencies (pauses, hesitations), word substitutions or omissions.
+        This helps students self-monitor and correct their oral reading, fostering confidence and fluency all without needing constant teacher input.</li>
+      <li className="text-center text-slate-500 dark:text-slate-300 mb-12">Adaptive Comprehension Question Generation & Evaluation:
+        The system intelligently generates: short-answer questions to test literal and inferential understanding, jumbled sentence tasks to reinforce
+        syntax and structure, student responses are evaluated using natural language understanding (NLU) models. THis offer; instant feedback on correctness,
+        suggestions or hints for partially correct answers,d ynamic adaptation of difficulty level based on performance</li>
+      <li className="text-center text-slate-500 dark:text-slate-300 mb-12">Image Description for Language Enrichment:Students can view AI-generated or
+        curated educational images and are prompted to: Describe what they see,  use targeted vocabulary and sentence structures,
+        practice creative and descriptive writing.This activity builds contextual language use, encourages expression, and supports visual-spatial learners.</li>
 
-      <Card className="mx-auto">
+      <li className="text-center text-slate-500 dark:text-slate-300 mb-12">Gamified Vocabulary Challenges: To sustain motivation, the platform includes
+        interactive games such as: Word-matching and spelling games ,level-up rewards and achievement badges. These elements promote active learning,
+        improve word retention, and increase student engagement, especially in younger learners with shorter attention spans.</li>
+
+      <li className="text-center text-slate-500 dark:text-slate-300 mb-12">The system is not just student-centric. Tis also reduces teacher workload by: Automatically tracking learner progress</li>
+      {/* <Card className="mx-auto">
         <CardContent className="p-6">
           <div className="grid md:grid-cols-2 gap-8">
             <div className="relative">
@@ -74,7 +88,7 @@ const Solution = () => {
             </div>
           </div>
         </CardContent>
-      </Card>
+      </Card> */}
     </div>
   );
 };
