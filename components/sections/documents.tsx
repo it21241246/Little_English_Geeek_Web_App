@@ -7,51 +7,60 @@ import {
   FileCheck,
   Book,
   GraduationCap,
+  FileLineChart,
+  FileClock,
 } from "lucide-react";
 import Link from "next/link";
 
 const documents = [
   {
-    title: "Project Charter",
+    title: "Project Charter (TAF)",
     description:
-      "A formal, typically short document that describes the project in its entirety — including objectives and how it will be carried out.",
+      "A formal, short document that describes the project in its entirety including objectives and how it will be carried out.",
     icon: <FileText className="text-blue-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1fU6fdelF4iCt5Xy84anVoCYypl6RDvLw?usp=sharing",
+    link: "https://drive.google.com/file/d/1PjX_6Qtv9u0NHKbp-IL5DZqUBuIbRefJ/view?usp=sharing",
+  },
+  {
+    title: "RETAF Document",
+    description:
+      "The ammended TAF document adhering to the panel comments", 
+    icon: <FileLineChart className="text-sky-500 size-10" />,
+    link: "https://drive.google.com/file/d/1VyN95N2W6XQRzT7hwzA_5VRHiHODoa4w/view?usp=sharing",
   },
   {
     title: "Project Proposal",
     description:
       "A core document that helps focus on the substance of the proposed plan, using an easy-to-follow project proposal outline.",
     icon: <FilePlus className="text-orange-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1FPvVndJ14jPzq3bJXLzxzwoI0ZBawSHL?usp=sharing",
-  },
-  {
-    title: "Checklist",
-    description:
-      "A list of tasks to be completed, providing details on meeting discussions and progress tracking.",
-    icon: <FileCheck className="text-pink-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1Z5-PGahsVT_F5gryf6jmFYqbWvvr7yfv?usp=sharing",
-  },
-  {
-    title: "Logbook",
-    description:
-      "A record of daily activities, providing details on meeting discussions and progress tracking.",
-    icon: <FileCheck className="text-yellow-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1K4aOnCRpugb0UlQLCpRq0d0deOEOD4LS?usp=sharing",
+    link: "https://mysliit.sharepoint.com/sites/CDAPSubmissionCloud/2425JCloud/Forms/AllItems.aspx?id=%2Fsites%2FCDAPSubmissionCloud%2F2425JCloud%2F24%2D25J%2D153%2DStudents%2F1%2E%20Project%20Proposal&viewid=29f155a8%2Db072%2D4b74%2Dbcbe%2Dd933c2f93dfd",
   },
   {
     title: "Research Paper",
     description:
       "Academic writing based on original research, including analysis and interpretation of findings.",
     icon: <Book className="text-green-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/12TV-DJbaCl7cfb8Wn7R1umH30pU5H3LJ?usp=sharing",
+    link: "https://mysliit.sharepoint.com/sites/CDAPSubmissionCloud/2425JCloud/Forms/AllItems.aspx?id=%2Fsites%2FCDAPSubmissionCloud%2F2425JCloud%2F24%2D25J%2D153%2DStudents%2F4%2E%20Research%20Paper&viewid=29f155a8%2Db072%2D4b74%2Dbcbe%2Dd933c2f93dfd",
+  },
+  {
+    title: "Research Paper Acceptance",
+    description:
+      "A record of daily activities, providing details on meeting discussions and progress tracking.",
+    icon: <FileCheck className="text-yellow-500 size-10" />,
+    link: "https://drive.google.com/drive/folders/1CUnkJOy5X7N9BHLYOi0GnkBs8qjTsuCe?usp=sharing",
   },
   {
     title: "Thesis",
     description:
       "A comprehensive document showcasing research findings, methodology, and expertise, contributing to academic insights.",
     icon: <GraduationCap className="text-purple-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1Uqj0tE9ej7Z2tA3k7MbkeFsOJ_bfUt1B?usp=sharing",
+    link: "https://mysliit.sharepoint.com/sites/CDAPSubmissionCloud/2425JCloud/Forms/AllItems.aspx?id=%2Fsites%2FCDAPSubmissionCloud%2F2425JCloud%2F24%2D25J%2D153%2DStudents%2F5%2E%20Final%20Report%20%26%20Presentation%2FFinal%20Reports&viewid=29f155a8%2Db072%2D4b74%2Dbcbe%2Dd933c2f93dfd",
+  },
+  {
+    title: "Logbook",
+    description:
+      "A record of daily activities, providing details on meeting discussions and progress tracking.",
+    icon: <FileClock className="text-fuchsia-500 size-10" />,
+    link: "https://drive.google.com/drive/folders/10M6It15Vo5b1JPo71ZtUkKHGHfXVqPKu?usp=sharing",
   },
 ];
 
