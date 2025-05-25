@@ -6,12 +6,15 @@ const guiders = [
     name: "Manori Gamage",
     role: "Supervisor",
     avatar: "/images/members/manori-gamage.jpg",
+    email: "manori.g@sliit.lk",
   },
   {
     id: "person-2",
     name: "Karthiga Rajendran",
     role: "Co-Supervisor",
     avatar: "/images/members/karthiga-rajendran.jpeg",
+    email: "karthiga.r@sliit.lk",
+
   },
 ];
 
@@ -21,24 +24,28 @@ const members = [
     name: "Bhagya Peramuna",
     role: "Leader",
     avatar: "/images/members/bhagya-peramuna.jpg",
+    email: "it21241246@my.sliit.lk",
   },
   {
     id: "person-6",
     name: "Minidu Tissera",
     role: "Member",
     avatar: "/images/members/minidu-tissera.jpg",
+    email: "it21237690@my.sliit.lk",
   },
   {
     id: "person-7",
     name: "Muditha Jayawickrama",
     role: "Member",
     avatar: "/images/members/muditha-jayawickrama.png",
+    email: "it21235924@my.sliit.lk",
   },
   {
     id: "person-8",
     name: "Pasindu Serasingha ",
     role: "Member",
     avatar: "/images/members/pasindu-serasinghe.jpeg",
+    email: "it21244834@my.sliit.lk",
   },
 ];
 
@@ -77,6 +84,7 @@ const Team = () => {
             </Avatar>
             <p className="text-center font-medium">{person.name}</p>
             <p className="text-center text-muted-foreground">{person.role}</p>
+            <p className="text-center text-muted-foreground">{person.email}</p>
           </div>
         ))}
       </div>
