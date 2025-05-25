@@ -9,17 +9,13 @@ const Banner = () => {
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col items-center text-center">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-green-800 mb-4">
-            Smart City: AI-Powered Solutions for Smarter Urban Living.
+            Little Geeek English - English Reading and Comprehension Assistant Tool for Primary School Students in Sri Lanka
           </h1>
 
           <p className="text-green-700 mb-8 md:text-lg">
-          Smart City integrates cutting-edge computer vision technology to
-            revolutionize smart city infrastructure. From intelligent traffic
-            management to real-time surveillance, automated waste sorting, and
-            efficient parking solutions, Smart City enhances urban efficiency,
-            sustainability, and safety. By harnessing AI and real-time
-            analytics, we create smarter, more adaptive cities that improve the
-            quality of life for all residents.
+            Model-driven English learning assistant for Sri Lankan primary
+            students. Supporting fluency, pronunciation, comprehension, and engagement
+            through speech, image, and game-based assessments.
           </p>
 
           <Link
