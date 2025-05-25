@@ -1,5 +1,5 @@
 {
-  "name": "smart-city-landing-page",
+  "name": "little-geek-english",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -34,7 +34,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.54.2",
-    "smart-city-landing-page": "file:",
+    "little-geek-english": "file:",
     "sonner": "^2.0.1",
     "tailwind-merge": "^3.0.2",
     "tailwindcss-animate": "^1.0.7",
