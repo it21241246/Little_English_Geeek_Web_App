@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Facebook, Twitter, Instagram, Linkedin, Building2 } from "lucide-react";
+import { Facebook, Twitter, Instagram, Linkedin, BookOpen } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { SubscribeForm } from "./subscribe-form";
@@ -21,11 +21,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <Building2 />
-              <h2 className="text-2xl font-bold">Smart City</h2>
+              <BookOpen />
+              <h2 className="text-2xl font-bold">Little Geeek English</h2>
             </div>
             <p className="text-muted-foreground">
-              AI-Powered Solutions for Smarter Urban Living.
+             English Reading and Comprehension Assistant Tool for Primary School Students in Sri Lanka
             </p>
           </div>
           <div className="space-y-4 lg:col-span-2">
@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col items-center justify-between gap-4 mt-8 pt-8 border-t sm:flex-row">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Smart City. All rights reserved.
+            © {new Date().getFullYear()} Little Geeek English. All rights reserved.
           </p>
           <div className="flex space-x-4">
             <Button variant="ghost" size="icon">
