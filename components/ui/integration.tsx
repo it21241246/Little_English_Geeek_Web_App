@@ -46,16 +46,16 @@ const Integration = ({ className }: { className?: string }) => {
       <div className="flex size-full max-w-lg flex-row items-stretch justify-between gap-10">
         <div className="flex flex-col justify-center gap-2">
           <Circle ref={div1Ref}>
-            <Icons.surveillance />
+            <Icons.voice />
           </Circle>
           <Circle ref={div2Ref}>
-            <Icons.waste />
+            <Icons.qna />
           </Circle>
           <Circle ref={div3Ref}>
-            <Icons.accident />
+            <Icons.gallery />
           </Circle>
           <Circle ref={div4Ref}>
-            <Icons.parking />
+            <Icons.game />
           </Circle>
           <Circle ref={div5Ref}>
             <Icons.auth />
@@ -110,36 +110,42 @@ const Integration = ({ className }: { className?: string }) => {
 export default Integration;
 
 const Icons = {
-  surveillance: () => (
+  voice: () => (
     <Image
-      src="/images/integrations/cctv.png"
+      src="/images/integrations/microphone.gif"
       width={200}
       height={200}
-      alt="Surveillance Enhancement"
+      alt="Microphone"
     />
   ),
-  waste: () => (
+  qna: () => (
     <Image
-      src="/images/integrations/waste.png"
+      src="/images/integrations/qna.gif"
       width={200}
       height={200}
-      alt="Waste Management"
+      alt="Question and answer analysis"
+        unoptimized 
+
     />
   ),
-  accident: () => (
+  gallery: () => (
     <Image
-      src="/images/integrations/car.png"
+      src="/images/integrations/gallery.gif"
       width={200}
       height={200}
-      alt="Accident Detection"
+      alt="Image generation"
+        unoptimized 
+
     />
   ),
-  parking: () => (
+  game: () => (
     <Image
-      src="/images/integrations/parking.png"
+      src="/images/integrations/game.gif"
       width={200}
       height={200}
-      alt="Parking Management"
+      alt="Gamification"
+        unoptimized 
+
     />
   ),
   application: () => (
@@ -148,6 +154,8 @@ const Icons = {
       width={200}
       height={200}
       alt="Application Integration"
+        unoptimized 
+
     />
   ),
   auth: () => (
@@ -156,6 +164,8 @@ const Icons = {
       width={200}
       height={200}
       alt="Authentication Integration"
+        unoptimized 
+
     />
   ),
   user: () => (
