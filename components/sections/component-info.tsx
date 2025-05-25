@@ -1,30 +1,30 @@
 import { useId } from "react";
-import { SquareParking, Trash2, ShieldCheck, Car } from "lucide-react";
+import { SquareParking, Trash2, ShieldCheck, Car, Mic2Icon, BookOpenCheck, Gamepad2, LucideImages } from "lucide-react";
 
 const grid = [
   {
-    icon: ShieldCheck,
-    title: "Surveillance Enhancement",
+    icon: Mic2Icon,
+    title: "Fluency and Pronunciation Assesment",
     description:
-      "Implement advanced surveillance systems with real-time threat detection capabilities, improving public safety through intelligent monitoring and rapid response mechanisms.",
+      "Develop a comprehensive assistant tool that helps primary school students in Sri Lanka improve their English speaking fluency and pronunciation by providing real-time feedback and personalized practice."
   },
   {
-    icon: Trash2,
-    title: "Smart Waste Management",
+    icon: BookOpenCheck,
+    title: "Question Generation and Answering with Difficulty Adjustment",
     description:
-      "Develop smart waste management solutions using computer vision for efficient sorting, collection optimization, and environmental impact reduction in urban areas.",
+      "Develop a system that evaluates text passages and creates questions that are in line with the Sri Lankan curriculum based on dynamically changing difficulty levels which depend on students' performance."
   },
   {
-    icon: Car,
-    title: "Special Accident Detection",
+    icon: Gamepad2,
+    title: "Vocabulary Building Game and Kids Tube Integration",
     description:
-      "Create a robust system for detecting and responding to special accidents on motorways, including accidents and emergency vehicle presence, ensuring quick response times.",
+      "Improve children's language skills through interactive vocabulary games and curated educational video content."
   },
   {
-    icon: SquareParking,
-    title: "Vehicle Parking Management",
+    icon: LucideImages,
+    title: "Image Generation with Real-Time Grammar and Comprehension Feedback",
     description:
-      "Develop an efficient system for managing vehicle parking, including real-time monitoring, automated counting, and integrated billing solutions for improved urban parking management.",
+      "Develop a system that uses image generation and NLP to improve reading and comprehension skills, as well as the ability to identify objects for students in grades 3, 4, and 5 by providing interactive and engaging learning experiences."
   },
 ];
 
