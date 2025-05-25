@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Menu, ArrowRight, Building2, Github, BookOpen } from "lucide-react";
+import { Menu, ArrowRight, BookOpen, Github} from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button, buttonVariants } from "@/components/ui/button";
 import {
@@ -128,7 +128,7 @@ const Header = () => {
                       <div className="flex justify-between items-center gap-2 mt-5">
                         <div className="flex items-center gap-2">
                           <Link href="/" className="flex items-center gap-2">
-                            <Building2 />
+                            <BookOpen />
                             <span className="text-xl font-bold">
                               English Reading and Comprehension Assistant for Primary School Students                            </span>
                           </Link>
@@ -275,8 +275,8 @@ const Header = () => {
                   </div>
                 </SheetContent>
               </Sheet>
-              <Building2 />
-              <span className="text-xl font-bold">Smart City</span>
+              <BookOpen />
+              <span className="text-xl font-bold">Little Geeek English</span>
             </div>
             <div className="flex items-center gap-2">
               <Link
