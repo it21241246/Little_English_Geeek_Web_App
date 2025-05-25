@@ -8,14 +8,16 @@ const TechStack = () => {
   const features = [
     {
       title: "Our Core Functionality",
-      description: "Our system integrates key features for seamless data access, real-time monitoring, and AI-driven insights.",
-      skeleton: <SkeletonOne />,
+      description:
+        "The system includes four core features: real-time fluency feedback, adaptive question generation with evaluation, image-based description, and gamified language activities. These components work together to improve comprehension, pronunciation, and student engagement."
+      , skeleton: <SkeletonOne />,
       className:
         "col-span-1 lg:col-span-3 lg:border-r  dark:border-neutral-800",
     },
     {
       title: "Technologies We Use",
-      description: "We use cutting-edge AI, cloud services, and development tools for fast, secure, and scalable deployment.",
+      description:
+        "We use modern web technologies, AI tools, and scalable infrastructure such as React, Python, YOLO, RAG, and MongoDB to build a reliable and adaptable learning platform.",
       skeleton: <SkeletonTwo />,
       className: "col-span-1 lg:col-span-3 border-b lg:border-none",
     },
@@ -28,14 +30,15 @@ const TechStack = () => {
         </h4>
 
         <p className="text-sm lg:text-base max-w-5xl  my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300">
-          Here are the tools and technologies harnessed in our project to create
-          an innovative and robust solution. From cutting-edge software to
-          state-of-the-art hardware, we integrate a diverse range of programming
-          languages, frameworks, and systems. Our comprehensive approach
-          includes leveraging advanced technologies, such as artificial
-          intelligence, IoT devices, machine learning algorithms, and more,
-          enabling us to build a secure and efficient system tailored for the
-          specific needs of the smart city.
+          The development of the English Reading and Comprehension Assistant leverages a combination of modern web technologies, and Robust data infrastructure.
+          The frontend is built using React with TSX/JSX, offering a responsive and interactive user experience,
+          styled efficiently with Tailwind CSS. On the backend, Python and a variety of its libraries form the core engine for natural
+          language processing (NLP), including Retrieval-Augmented Generation (RAG) for adaptive question handling and content generation.
+          For image-based tasks, YOLO is utilized for object detection, enhancing descriptive language activities. The system integrates YouTube APIs
+          to embed educational videos and facilitate multimedia-driven learning. For data management, both MongoDB and Quadrant DB are used to
+          handle user interactions, performance analytics, and content storage. Deployment and environment consistency are managed through Docker,
+          while Git is used for version control and collaborative development. This technology stack enables scalable, flexible, and intelligent
+          learning experiences tailored to Sri Lankan primary school students.
         </p>
       </div>
 
