@@ -5,13 +5,13 @@ const guiders = [
     id: "person-1",
     name: "Manori Gamage",
     role: "Supervisor",
-    avatar: "/images/members/manori-gamage.jpeg",
+    avatar: "/images/members/manori-gamage.jpg",
   },
   {
     id: "person-2",
     name: "Karthiga Rajendran",
     role: "Co-Supervisor",
-    avatar: "/images/members/karthiga-rajendran.jpg",
+    avatar: "/images/members/karthiga-rajendran.jpeg",
   },
 ];
 
