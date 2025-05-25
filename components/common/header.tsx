@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Menu, ArrowRight, Building2, Github } from "lucide-react";
+import { Menu, ArrowRight, Building2, Github, BookOpen } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button, buttonVariants } from "@/components/ui/button";
 import {
@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/sheet";
 import Link from "next/link";
 import { ThemeToggle } from "../ui/theme-toogle";
+import Image from "next/image";
 
 const Header = () => {
   const scrollToSection = (
@@ -32,8 +33,9 @@ const Header = () => {
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <Link href="/" className="flex items-center gap-2">
-                <Building2 />
-                <span className="text-xl font-bold">Smart City</span>
+                <BookOpen />
+
+                <span className="text-xl font-bold">Little Geeek English</span>
               </Link>
             </div>
             <div className="flex items-center">
@@ -128,8 +130,7 @@ const Header = () => {
                           <Link href="/" className="flex items-center gap-2">
                             <Building2 />
                             <span className="text-xl font-bold">
-                              Smart City
-                            </span>
+                              English Reading and Comprehension Assistant for Primary School Students                            </span>
                           </Link>
                         </div>
                         <div className="flex items-center gap-2">
