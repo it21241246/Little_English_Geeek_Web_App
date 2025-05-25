@@ -68,14 +68,14 @@ const Contact = () => {
                 <li>
                   <span className="font-bold">Email: </span>
                   <a href="" className="underline">
-                    info@smartcity.com
+                    info@littlegeeekenglish.com
                   </a>
                 </li>
               </ul>
             </div>
           </div>
 
-          <Form {...form}>
+          {/* <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="rounded-lg border bg-white p-6 dark:bg-black">
               <div className="grid gap-4">
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
@@ -154,7 +154,7 @@ const Contact = () => {
                 </Button>
               </div>
             </form>
-          </Form>
+          </Form> */}
         </div>
       </div>
     </section>
