@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { Facebook, Twitter, Instagram, Linkedin, BookOpen } from "lucide-react";
 
@@ -6,6 +7,16 @@ import { SubscribeForm } from "./subscribe-form";
 import Image from "next/image";
 
 const Footer = () => {
+  const scrollToSection = (
+      e: React.MouseEvent<HTMLAnchorElement>,
+      id: string
+    ) => {
+      e.preventDefault();
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    };
   return (
     <footer className="bg-background border-t border-x rounded-t-2xl">
       <div className="hidden md:block relative w-full h-72">
@@ -31,22 +42,27 @@ const Footer = () => {
           <div className="space-y-4 lg:col-span-2">
             <h3 className="text-lg font-semibold">Quick Links</h3>
             <nav className="grid grid-cols-2 gap-4">
-              <Link href="#" className="hover:underline">
+              <Link  href="#scope"
+                onClick={(e) => scrollToSection(e, "scope")} className="hover:underline">
                 Home
               </Link>
               <Link href="#" className="hover:underline">
-                Scope
+                Domain
               </Link>
-              <Link href="#" className="hover:underline">
+              <Link href="#milestones"
+                onClick={(e) => scrollToSection(e, "milestones")} className="hover:underline">
                 Milestone
               </Link>
-              <Link href="#" className="hover:underline">
+              <Link  href="#documents"
+                onClick={(e) => scrollToSection(e, "documents")} className="hover:underline">
                 Documents
               </Link>
-              <Link href="#" className="hover:underline">
+              <Link href="#presentations"
+                onClick={(e) => scrollToSection(e, "presentations")}className="hover:underline">
                 Presentations
               </Link>
-              <Link href="#" className="hover:underline">
+              <Link  href="#about"
+                onClick={(e) => scrollToSection(e, "about")} className="hover:underline">
                 About
               </Link>
             </nav>
