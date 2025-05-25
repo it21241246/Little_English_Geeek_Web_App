@@ -17,42 +17,35 @@ const presentations = [
     description:
       "In this presentation, our group presented our concept to the panel as well as our supervisor.",
     icon: <Presentation className="text-green-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1K2gmUKkUn5ZER_-HtuF5juM7SuX1hcSF?usp=sharing",
+    link: "https://mysliit.sharepoint.com/sites/CDAPSubmissionCloud/2425JCloud/Forms/AllItems.aspx?id=%2Fsites%2FCDAPSubmissionCloud%2F2425JCloud%2F24%2D25J%2D153%2DStudents%2F1%2E%20Project%20Proposal%2FPresentation&viewid=29f155a8%2Db072%2D4b74%2Dbcbe%2Dd933c2f93dfd",
   },
   {
     title: "Progress Presentation 1",
     description:
       "The presentation we developed to demonstrate our system's 50% progress.",
     icon: <Monitor className="text-orange-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/14qoXHwrVbc-NZ9uyLQgLcmqqko0voxg9?usp=sharing",
+    link: "https://mysliit.sharepoint.com/sites/CDAPSubmissionCloud/2425JCloud/Forms/AllItems.aspx?id=%2Fsites%2FCDAPSubmissionCloud%2F2425JCloud%2F24%2D25J%2D153%2DStudents%2F2%2E%20Progress%20Presentation%20%2D%201%2FPresentation%2FRP%2024%2D25J%2D153%2Epdf&viewid=29f155a8%2Db072%2D4b74%2Dbcbe%2Dd933c2f93dfd&parent=%2Fsites%2FCDAPSubmissionCloud%2F2425JCloud%2F24%2D25J%2D153%2DStudents%2F2%2E%20Progress%20Presentation%20%2D%201%2FPresentation",
   },
   {
     title: "Progress Presentation 2",
     description:
       "The presentation we developed to demonstrate our system's 90% development and the achievements we made.",
     icon: <PieChart className="text-pink-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1HmOKg6syAnXjn8i_taXDv7N3DMks-ZTX?usp=sharing",
+    link: "https://mysliit.sharepoint.com/sites/CDAPSubmissionCloud/2425JCloud/Forms/AllItems.aspx?id=%2Fsites%2FCDAPSubmissionCloud%2F2425JCloud%2F24%2D25J%2D153%2DStudents%2F3%2E%20Progress%20Presentation%20%2D%202%2FPresentation%2FRP%2024%2D25J%2D153%20%2Epdf&viewid=29f155a8%2Db072%2D4b74%2Dbcbe%2Dd933c2f93dfd&parent=%2Fsites%2FCDAPSubmissionCloud%2F2425JCloud%2F24%2D25J%2D153%2DStudents%2F3%2E%20Progress%20Presentation%20%2D%202%2FPresentation",
   },
   {
     title: "Final Presentation",
     description:
       "The presentation we developed to demonstrate our system's 100% development and the achievements we made.",
     icon: <FileBarChart className="text-yellow-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1ig-clbyg9to9Y6MV8CCwF_aZIIX0Sl4i?usp=sharing",
-  },
-  {
-    title: "Poster",
-    description:
-      "An informative and visually engaging snapshot of the research project, highlighting objectives, methods, and findings.",
-    icon: <ClipboardList className="text-blue-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1qQnDht07NBSzu549MREXI_-dmiKHLp1o?usp=sharing",
+    link: "https://drive.google.com/drive/folders/1ZO2biC85RA4qFtC1CnbpnfXWwpj740ij?usp=sharing",
   },
   {
     title: "Demo",
     description:
       "A live demonstration showcasing the fully functional system, highlighting its features and real-life capabilities.",
     icon: <PlayCircle className="text-purple-500 size-10" />,
-    link: "https://drive.google.com/drive/folders/1Nbr_p8hrp8UZhx3gXbYjoV9W3Ml7T7QQ?usp=sharing",
+    link: "https://mysliit.sharepoint.com/sites/CDAPSubmissionCloud/_layouts/15/stream.aspx?id=%2Fsites%2FCDAPSubmissionCloud%2F2425JCloud%2F24%2D25J%2D153%2DStudents%2F3%2E%20Progress%20Presentation%20%2D%202%2FDemo%2F24%2D25J%2D153%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef1f80175%2Ddb07%2D47a5%2D8b26%2D5dd9ab414fb1",
   },
 ];
 
