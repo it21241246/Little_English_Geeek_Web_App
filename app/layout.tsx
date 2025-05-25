@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Smart City - AI-Powered Solutions for Smarter Urban Living",
-  description: "AI-Powered Solutions for Smarter Urban Living",
+  title: "Little Geeek English - English Reading and Comprehension Assistant Tool for Primary School Students in Sri Lanka",
+  description: "English Reading and Comprehension Assistant Tool for Primary School Students in Sri Lanka",
 };
 
 export default function RootLayout({
